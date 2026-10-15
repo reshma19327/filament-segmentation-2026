@@ -1,11 +1,8 @@
 """
 Find clDice failure cases for the MAGFiLO solar-filament project.
-
-
 Reads the verified per-image CSV created by verified_evaluation_7_models_512.py,
 then creates a ranked CSV and visual panels for the lowest-clDice cases of the
 current improved UNet++ + Spine + clDice model.
-
 
 This is analysis only: it does not train models or modify existing results.
 """
