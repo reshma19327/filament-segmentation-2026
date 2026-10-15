@@ -1,6 +1,7 @@
 # AI-Assisted Structural Analysis of Solar Filaments
 
 ## Abstract
+[![Python CI](https://github.com/reshma19327/filament-segmentation-2026/actions/workflows/ci.yml/badge.svg)](https://github.com/reshma19327/filament-segmentation-2026/actions/workflows/ci.yml)
 
 This project investigates deep learning methods for segmenting solar filaments in H-alpha (Hα) images. It explores U-Net-based architectures and spine-guided training supervision combined with topology-aware learning using clDice loss. The project also examines segmentation quality and structural properties such as filament area, length, width, orientation, connectivity, and fragmentation.
 
