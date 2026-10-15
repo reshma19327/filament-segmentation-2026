@@ -1,0 +1,79 @@
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Dataset and large files
+MAGFiLO_1.0_Kaggle_2026/
+data/
+*.zip
+*.whl
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated predictions, experiments and evaluation outputs
+ablation_inventory_512/
+audit_reports/
+backups/
+benchmark_512/
+benchmark_models_512/
+checkpoint_comparison/
+checkpoints/
+checkpoints_512/
+checkpoints_512_cldice_improved/
+checkpoints_512_cldice_smoothfix/
+checkpoints_512_improved/
+checkpoints_cldice/
+checkpoints_topology/
+cldice_failure_analysis/
+consolidated_audit_512/
+evaluation_results/
+evaluation_verified_512/
+evaluation_verified_512_topology/
+evaluation_verified_all9_512/
+final_evaluation_512/
+pq_failure_analysis_512/
+pq_no_dedup_results_512/
+pq_provisional_results_512/
+pq_sensitivity_no_dedup/
+structural_morphology_512/
+threshold_tuning/
+threshold_tuning_512/
+threshold_tuning_512_improved/
+unified_evaluation_512/
+unified_evaluation_512_new_cldice/
+unified_evaluation_512_topology/
+unified_evaluation_clean_512/
+*.bak
+*.tmp
+
+# Secrets
+.env
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Experimental result directories
+pq_provisional_results_clean_cldice_best_512*/
+pq_postprocessing_sweep_results.csv
+morphology_failure_cases.png
+worst_case_comparison.png
+
+# Backup and temporary scripts
+*.backup*
+*.before_*
+*.bak
+*.tmp
+
+# Local diagnostic outputs
+cleanup_report_*.json
+cleanup_report_*.txt
+final_project_diagnostics.txt
